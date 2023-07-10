@@ -1,0 +1,72 @@
+@media screen and (max-width: 991px) {
+  .avatar {
+    display: none;
+  }
+
+  #personal-info > ul > li {
+    margin-bottom: 15px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ct-project {
+    display: flex;
+  }
+
+  .intro-job {
+    height: 100%;
+  }
+
+  .layout-certificate,
+  .flex-direction {
+    flex-direction: column;
+  }
+
+  .pb-3 .lay-item2 {
+    padding-bottom: 40px;
+  }
+
+  #footer {
+    font-size: 20px;
+  }
+
+  /* Project Charter */
+  .grid-4,
+  .row-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .flex-start {
+    align-items: start;
+    justify-content: start;
+    padding-left: 0 !important;
+  }
+
+  .ta-center {
+    text-align: center;
+  }
+
+  .ct-team {
+    margin: 20px;
+  }
+
+  .line-timeline {
+    border: none;
+  }
+
+  .line-content {
+    border-bottom: 2px dotted var(--dash--color);
+  }
+}

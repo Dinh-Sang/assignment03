@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .flex,
+  #about > .row,
+  .row,
+  .ct-project {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-bar:nth-child(n + 1) {
+    border: none;
+    flex-basis: auto;
+    padding: 10px;
+  }
+
+  #target,
+  #personal-info,
+  .layout-certificate {
+    padding-bottom: 20px;
+  }
+
+  .intro-job > .ctt-job {
+    margin-top: 10px;
+  }
+
+  .icon-hobby {
+    padding-top: 40px;
+  }
+
+  .row > .col {
+    margin-bottom: 40px;
+  }
+
+  .dissapear {
+    display: none;
+  }
+
+  #footer {
+    font-size: 40px;
+  }
+
+  /* Project Charter */
+  .team .flex {
+    align-items: center;
+  }
+}
